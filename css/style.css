@@ -4,6 +4,11 @@ body{
 }
 
 .ms_container{
+    padding-top: 5px;
+
+}
+
+.ms_container, .back-returnal-main-container{
     height: 100%;
     padding: 0 20px;
 }
@@ -12,9 +17,8 @@ body{
     display: flex;
 }
 
-.ms_btn-border-radius-header{
+.ms_btn-border-radius{
     border-radius: 20px;
-    background-color: #363636;
 }
 
 /* HEADER */
@@ -24,7 +28,7 @@ header{
 }
 
 .back-black{
-    height: 40px;
+    height: 30px;
     background-color: black;
 }
 
@@ -99,3 +103,53 @@ header{
     height: auto;
 }
 
+.ms_btn-color-gray-header{
+    background-color: #363636;
+}
+
+/* MAIN */
+.back-returnal-main{
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.back-returnal-main-container{
+    flex-direction: column;
+    padding-top: 250px;
+}
+
+.back-returnal-main-container div{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.back-returnal-main-container img{
+    width: 100%;
+}
+
+.back-returnal-main-container h2{
+    font-size: 40px;
+}
+
+.back-returnal-main-container p{
+    font-size: 20px;
+}
+
+.ms_btn-color-orange-main{
+    background-color: #cd3d0f;
+}
+
+/* MEDIA QUERY */
+@media screen and (min-width: 992px) {
+    .back-returnal-main-container{
+        padding-top: 200px;
+    }
+
+    .back-returnal-main-container img{
+        max-width: 220px;
+    }
+}
