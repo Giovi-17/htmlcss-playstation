@@ -12,6 +12,11 @@ body{
     display: flex;
 }
 
+.ms_btn-border-radius-header{
+    border-radius: 20px;
+    background-color: #363636;
+}
+
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
@@ -38,15 +43,20 @@ header{
     margin-bottom: 0;
 }
 
+.header-list ul i{
+    color: lightgray;
+    margin-left: 2px;
+}
+
 .header-list li{
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .header-list li a{
     text-decoration: none;
     color: black;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 /* top */
@@ -71,6 +81,13 @@ header{
 /* bottom-right */
 .header-menu-right{
     justify-content: flex-end;
+}
+
+.burger{
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: gray;
 }
 
 .header-right-list ul{
