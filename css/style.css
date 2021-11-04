@@ -3,7 +3,82 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.ms_container{
+    height: 100%;
+    padding: 0 20px;
+}
+
+.flex{
+    display: flex;
+}
+
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
+    z-index: 1;
 }
+
+.back-black{
+    height: 40px;
+    background-color: black;
+}
+
+.back-white{
+    height: 70px;
+    background-color: white;
+}
+
+.header-menu{
+    align-items: center;
+}
+
+.header-list ul{
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.header-list li{
+    margin: 0 5px;
+}
+
+.header-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* top */
+.header-logo-s{
+    height: 100%;
+}
+
+.header-logo-s img{
+    height: 20px;
+    width: auto;
+}
+
+.header-logo-top{
+    justify-content: right;
+}
+
+/* bottom */
+.header-logo-p{
+    height: 100%;
+}
+
+/* bottom-right */
+.header-menu-right{
+    justify-content: flex-end;
+}
+
+.header-right-list ul{
+    padding: 0;
+}
+
+.header-lens img{
+    width: 30px;
+    height: auto;
+}
+
