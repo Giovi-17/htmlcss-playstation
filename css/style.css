@@ -5,12 +5,35 @@ body{
 
 .ms_container{
     padding-top: 5px;
-
 }
 
-.ms_container, .back-returnal-main-container{
+main .ms_container img{
+    height: auto;
+    width: 100%;
+}
+
+.ms_container, .jumbotron-main-container{
     height: 100%;
     padding: 0 20px;
+}
+
+.ms_container-special-text{
+    margin-top: 150px;
+}
+
+.ms_container-special-text-image{
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.ms_container-special-text-image img{
+    height: auto;
+    width: 100%;
+}
+
+.main-special-text-c-v{
+    flex-direction: column;
+    justify-content: center;
 }
 
 .flex{
@@ -108,8 +131,7 @@ header{
 }
 
 /* MAIN */
-.back-returnal-main{
-    background-image: url("../img/jumbo-bg.png");
+.jumbotron{
     background-repeat: no-repeat;
     background-position: top;
     color: white;
@@ -117,25 +139,29 @@ header{
     margin-bottom: 10px;
 }
 
-.back-returnal-main-container{
-    flex-direction: column;
+.back-returnal-main{
+    background-image: url("../img/jumbo-bg.png");
     padding-top: 250px;
 }
 
-.back-returnal-main-container div{
+.jumbotron-main-container{
+    flex-direction: column;
+}
+
+.jumbotron-main-container div{
     padding-top: 7px;
     padding-bottom: 7px;
 }
 
-.back-returnal-main-container img{
+.jumbotron-main-container img{
     width: 100%;
 }
 
-.back-returnal-main-container h2{
+.jumbotron-main-container h2{
     font-size: 40px;
 }
 
-.back-returnal-main-container p{
+.jumbotron-main-container p{
     font-size: 20px;
 }
 
@@ -156,13 +182,79 @@ header{
     width: 100%;
 }
 
+/* special text */
+.main-special-text-c{
+    text-align: center;
+}
+
+.main-special-text span{
+    color: #2d64e6;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-special-text h2{
+    color: black;
+    font-size: 43px;
+    margin-bottom: 25px;
+}
+
+.main-special-text h3{
+    color: #727272;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+/* immagini accessori */
+.border-selected-blue{
+    border-bottom: 2px solid #2d64e6;
+}
+
+.immagini-accessori-container{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.immagini-accessori{
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.immagini-accessori-s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.immagini-accessori span, .immagini-accessori-s span{
+    text-align: center;
+}
+
+/* it takes two jumbotron */
+.it-takes-two-main{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    padding-top: 50px;
+}
+
 /* MEDIA QUERY */
-@media screen and (min-width: 992px) {
-    .back-returnal-main-container{
-        padding-top: 200px;
+@media screen and (min-width: 768px) {
+    .ms_container-special-text-image{
+        flex-direction: row;
     }
 
-    .back-returnal-main-container img{
-        max-width: 220px;
+    .immagini-accessori-space{
+        padding: 0 30px;
+    }
+    
+    .immagini-accessori-space-border{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .back-returnal-main{
+        padding-top: 215px;
     }
 }
