@@ -143,6 +143,19 @@ header{
     background-color: #cd3d0f;
 }
 
+/* game image */
+.game-image-round{
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.game-image-round img{
+    height: auto;
+    width: 100%;
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 992px) {
     .back-returnal-main-container{
