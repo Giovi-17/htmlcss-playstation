@@ -4,7 +4,8 @@ body{
 }
 
 .ms_container{
-    padding-top: 5px;
+    height: 100%;
+    /* padding-top: 5px; */
 }
 
 main .ms_container img{
@@ -12,9 +13,9 @@ main .ms_container img{
     width: 100%;
 }
 
-.ms_container, .jumbotron-main-container{
+.jumbotron-main-container{
     height: 100%;
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }
 
 .ms_container-special-text{
@@ -31,6 +32,11 @@ main .ms_container img{
     width: 100%;
 }
 
+.ms_container-special{
+    height: 100%;
+    /* margin: 0 20px; */
+}
+
 .main-special-text-c-v{
     flex-direction: column;
     justify-content: center;
@@ -42,6 +48,10 @@ main .ms_container img{
 
 .ms_btn-border-radius{
     border-radius: 20px;
+}
+
+.ms_btn-light{
+    color: #2d64e6;
 }
 
 /* HEADER */
@@ -265,8 +275,53 @@ header{
     margin-bottom: 15px;
 }
 
-/* Sezione PS4*/
+/* Sezione PS Plus*/
+.banner{
+    margin-top: 130px;
+    margin-bottom: 90px;
+}
 
+.banner-space{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.back-light-gray{
+    background-color: #bebcbb;
+}
+
+.special-banner{
+    margin-bottom: 30px;
+}
+
+.main-special-text-banner h3{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* sconti */
+.img-sconti img{
+    margin-top: 50px;
+}
+
+.back-blue{
+    background-color: #161c3b;
+}
+
+.back-blue h3{
+    color: white;
+}
+
+/* social */
+.social{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.social-title{
+    font-size: 30px;
+}
 
 /* MEDIA QUERY */
 @media screen and (min-width: 576px){
@@ -291,10 +346,20 @@ header{
     .immagini-accessori-space-border{
         height: 100%;
     }
+
+    .banner-space{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .back-returnal-main{
         padding-top: 215px;
+    }
+
+    .banner-space{
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
