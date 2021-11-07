@@ -5,7 +5,6 @@ body{
 
 .ms_container{
     height: 100%;
-    /* padding-top: 5px; */
 }
 
 main .ms_container img, footer .ms_container img{
@@ -15,7 +14,6 @@ main .ms_container img, footer .ms_container img{
 
 .jumbotron-main-container{
     height: 100%;
-    /* padding: 0 20px; */
 }
 
 .ms_container-special-text{
@@ -34,7 +32,6 @@ main .ms_container img, footer .ms_container img{
 
 .ms_container-special{
     height: 100%;
-    /* margin: 0 20px; */
 }
 
 .main-special-text-c-v{
@@ -56,6 +53,10 @@ main .ms_container img, footer .ms_container img{
 
 .underline{
     text-decoration: underline;
+}
+
+.ms_btn-space{
+    margin-bottom: 30px;
 }
 
 /* HEADER */
@@ -371,8 +372,9 @@ footer a{
 
 /* MEDIA QUERY */
 @media screen and (min-width: 576px){
-    main .ms_container{
-        padding: 0;
+    .spazio-laterale{
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .back-gray h4{
@@ -381,12 +383,22 @@ footer a{
 }
 
 @media screen and (min-width: 768px) {
+    .spazio-laterale{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .ms_btn-font{
+        font-size: 14px;
+    }
+
     .ms_container-special-text-image{
         flex-direction: row;
     }
 
     .immagini-accessori-space{
-        padding: 0 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     
     .immagini-accessori-space-border{
