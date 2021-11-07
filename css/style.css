@@ -8,7 +8,7 @@ body{
     /* padding-top: 5px; */
 }
 
-main .ms_container img{
+main .ms_container img, footer .ms_container img{
     height: auto;
     width: 100%;
 }
@@ -52,6 +52,10 @@ main .ms_container img{
 
 .ms_btn-light{
     color: #2d64e6;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 /* HEADER */
@@ -323,6 +327,48 @@ header{
     font-size: 30px;
 }
 
+/* FOOTER */
+.back-blue-footer{
+    background-color: #00439c;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+}
+
+.logo-footer{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.globe-footer{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.footer-ul-top{
+    margin-top: 50px;
+}
+
+.footer-ul-bottom{
+    margin-bottom: 50px;
+}
+
+footer ul{
+    list-style-type: none;
+    line-height: 35px;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.sie-logo{
+    margin-bottom: 10px; 
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 576px){
     main .ms_container{
@@ -351,6 +397,15 @@ header{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    
+    .footer-ul-central{
+        margin-top: 50px;
+    }
+
+    .footer-ul-bottom{
+        margin-top: 50px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -361,5 +416,17 @@ header{
     .banner-space{
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .footer-ul-top{
+        margin-top: 0px;
+    }
+
+    .footer-ul-central{
+        margin-top: 0px;
+    }
+
+    .footer-ul-bottom{
+        margin-top: 0px;
     }
 }
