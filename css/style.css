@@ -39,10 +39,6 @@ main .ms_container img, footer .ms_container img{
     justify-content: center;
 }
 
-.flex{
-    display: flex;
-}
-
 .ms_btn-border-radius{
     border-radius: 20px;
 }
@@ -120,6 +116,10 @@ header{
     height: 100%;
 }
 
+.header-list ul li:hover i{
+    color: #2d64e6;
+}
+
 /* bottom-right */
 .header-menu-right{
     justify-content: flex-end;
@@ -189,11 +189,21 @@ header{
     border-radius: 20px;
     overflow: hidden;
     margin-top: 30px;
+    padding: 3px;
 }
 
 .game-image-round img{
     height: auto;
     width: 100%;
+    border-radius: 15px;
+}
+
+.border-image-blue{
+    border-color: #0070d1!important;
+}
+
+.border-image-hidden{
+    border-color: white!important;
 }
 
 /* special text */
