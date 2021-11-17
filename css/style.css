@@ -55,6 +55,10 @@ main .ms_container img, footer .ms_container img{
     margin-bottom: 30px;
 }
 
+.ms_btn-font{
+    font-size: 14px;
+}
+
 /* HEADER */
 header{
     font-family: Helvetica, arial, sans-serif;
@@ -405,10 +409,6 @@ footer a{
     .spazio-laterale{
         padding-left: 35px;
         padding-right: 35px;
-    }
-
-    .ms_btn-font{
-        font-size: 14px;
     }
 
     .ms_container-special-text-image{
